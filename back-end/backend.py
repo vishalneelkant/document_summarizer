@@ -93,6 +93,7 @@ which makes it easier to understand the process and implement the solution. pres
              print("Error: 'field_name' is missing in the query.")
              return "Invalid query: 'field_name' is required."
 
+
     # Add 'field_name' to the input for the rag_chain
         input_data = {
              "context": self.retriever,  # Retrieves relevant context

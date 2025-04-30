@@ -92,6 +92,7 @@ if prompt := st.chat_input():
         st.write(prompt)
 
 
+
 # Create a directory for attachments if it doesn't exist
 if prompt:
     with st.chat_message("assistant"):
